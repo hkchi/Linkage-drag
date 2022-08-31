@@ -1,0 +1,25 @@
+#define NUMINDS 67 \\ overwritten in cmd
+#define NUMLOCI 9999 \\ overwritten in cmd
+
+#define LABEL 1
+#define POPDATA 1
+#define POPFLAG 1
+#define LOCDATA 0
+#define PHENOTYPE 0
+#define EXTRACOLS 0
+
+#define MARKERNAMES 0
+#define RECESSIVEALLELES 0
+#define MAPDISTANCES 1
+
+#define MISSING 9
+
+#define ADMBURNIN 500
+#define BURNIN 10000
+#define NUMREPS 10000
+#define MAXPOPS 7 \\ overwritten in cmd
+
+#define PHASED 0
+#define PHASEINFO 0
+#define MARKOVPHASE 1
+

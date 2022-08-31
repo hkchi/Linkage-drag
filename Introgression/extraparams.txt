@@ -1,0 +1,12 @@
+#define NOADMIX 0
+#define LINKAGE 1
+
+#define SITEBYSITE 1
+
+#define USEPOPINFO 1
+#define LOCPRIOR 0
+
+#define LOG10RSTART -6.124939 \\ The parameter r represents the rate of switching from one chunks to the next. Set r = 7.5e-7 = 30*2.5e-8, assuming recombiantion rate 2.5e-8(/bp/generation) and admixture happen 30 generations ago
+#define LOG10RMIN -9 \\ recombiantion rate close to 0/(bp/generation)
+#define LOG10RMAX -5.823909 \\ recombiantion rate 5e-8(/bp/generation)
+#define LOG10RPROPSD 0.1
